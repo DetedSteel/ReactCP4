@@ -1,0 +1,17 @@
+.container {
+  border: 1px solid black;
+  border-radius: 16px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  height: 250px;
+  padding: 20px;
+}
+
+.title {
+  font-size: 18px;
+  text-align: center;
+  color: black;
+  text-decoration: none;
+}
