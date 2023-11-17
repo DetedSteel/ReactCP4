@@ -17,11 +17,13 @@ export const Rate: FC<{ rating: number }> = ({ rating }) => {
   return (
     <div>
       <IconContext.Provider value={{ color: 'orange' }}>
-        {count.map((e, ix) => (
+        {count.map((_, ix) => (
+
           <FaStar key={ix}/>
         ))}
       </IconContext.Provider>
-      {count2.map((e, ix) => (
+      {count2.map((_, ix) => (
+
         <FaStar key={ix}/>
       ))}
     </div>
